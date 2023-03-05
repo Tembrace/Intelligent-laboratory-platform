@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shundei.web.mapper.EnvironmentParamsMapper">
+
+    <resultMap id="BaseResultMap" type="com.shundei.web.model.domain.EnvironmentParams">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="environmentID" column="environmentID" jdbcType="INTEGER"/>
+            <result property="temperature" column="temperature" jdbcType="DECIMAL"/>
+            <result property="humidity" column="humidity" jdbcType="DECIMAL"/>
+            <result property="pm2_5" column="pm2_5" jdbcType="DECIMAL"/>
+            <result property="co2" column="co2" jdbcType="INTEGER"/>
+            <result property="currentTime" column="currentTime" jdbcType="TIMESTAMP"/>
+            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
+            <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,environmentID,temperature,
+        humidity,pm2_5,co2,currentTime,
+        createTime,updateTime,isDelete
+    </sql>
+</mapper>

@@ -1,0 +1,28 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/xxx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: xxx
+    password: xxx
+  application:
+    name: nettyservice
+netty:
+  bind_address: 0.0.0.0
+  bind_port: 8899
+  leak_detector_level: DISABLED
+  boss_group_thread_count: 1
+  worker_group_thread_count: 8
+  read_time_out: 70
+  test_judge_frame_sum: false
+  
+dubbo:
+  application:
+    name: netty-backend
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848   

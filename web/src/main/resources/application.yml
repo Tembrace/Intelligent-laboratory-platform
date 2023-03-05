@@ -1,0 +1,39 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/xxx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: xxx
+    password: xxx
+  session:
+    # 失效时间
+    timeout: 86400
+  application:
+    name: webservice
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+  global-config:
+    db-config: # 这就是mybatis-plus在查询的时候会根据下面来判定是否删除,删除也不是真的删除，而是逻辑删除
+      logic-delete-field: isDelete # 全局逻辑删除的实体字段名
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+dubbo:
+  application:
+    name: web-backend
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848      
+
+user:
+  account:
+    minlen: 5
+    maxlen: 18
+  password:
+    minlen: 5
+    maxlen: 18
+    contain-special-characters: false

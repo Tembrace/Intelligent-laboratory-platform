@@ -1,0 +1,24 @@
+
+o
+java:S1192"LDefine a constant instead of duplicating this literal "currentTime" 4 times.(¥·ÖÂûÿÿÿÿ8‚ÄÉÉ0
+M
+java:S5411ÿ"*Use the primitive boolean expression here.(éÜŠµÿÿÿÿÿ8­‚ÄÉÉ0
+H
+java:S5411œ"*Use the primitive boolean expression here.(¹•ù—8­‚ÄÉÉ0
+Y	java:S125"<This block of commented-out lines of code should be removed.(Áª¹ü8ı‚ÄÉÉ0
+]
+java:S1854Ì":Remove this useless assignment to local variable "gender".(§š˜…ıÿÿÿÿ8ı‚ÄÉÉ0
+Y
+java:S1854Ê"6Remove this useless assignment to local variable "id".(Š‹úÑÿÿÿÿÿ8ı‚ÄÉÉ0
+J
+java:S1481Ê"'Remove this unused "id" local variable.(Š‹úÑÿÿÿÿÿ8ı‚ÄÉÉ0
+N
+java:S1481Ì"+Remove this unused "gender" local variable.(§š˜…ıÿÿÿÿ8ı‚ÄÉÉ0
+U
+java:S1135Õ"2Complete the task associated to this TODO comment.(´¸ÿÕşÿÿÿÿ8ı‚ÄÉÉ0
+U
+java:S1135ß"2Complete the task associated to this TODO comment.(ÆÂ˜ÿÿÿÿÿ8‹ƒÄÉÉ0
+p
+java:S3776ê"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ò›§8‹ƒÄÉÉ0
+I
+java:S1168¯"+Return an empty collection instead of null.(¥¹ï8›ƒÄÉÉ0

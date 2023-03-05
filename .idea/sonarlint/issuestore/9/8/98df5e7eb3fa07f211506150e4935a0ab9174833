@@ -1,0 +1,17 @@
+
+b	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(ş·ÏÇ8©İÙ•À0
+b	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(ğâÉŸ8©İÙ•À0
+{	java:S115'"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼¿¤ùÿÿÿÿ8»İÙ•À0
+v	java:S115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œÚ‘µ8¼İÙ•À0
+X	java:S125"<This block of commented-out lines of code should be removed.(å±şÙ8¿İÙ•À0
+X	java:S125%"<This block of commented-out lines of code should be removed.(Ô‘²²8¿İÙ•À0
+T
+java:S1135-"2Complete the task associated to this TODO comment.(¦İñ’ÿÿÿÿÿ8ÀİÙ•À0
+Z
+java:S1854i"=Remove this useless assignment to local variable "channelId".(°ö€ 8ÉİÙ•À0
+T
+java:S1135V"2Complete the task associated to this TODO comment.(Ë‘¹Âÿÿÿÿÿ8ÊİÙ•À0
+K
+java:S1481i".Remove this unused "channelId" local variable.(°ö€ 8ÌİÙ•À0
+X	java:S125j"<This block of commented-out lines of code should be removed.(«šøÔ8ÍİÙ•À0
+]	java:S125|"<This block of commented-out lines of code should be removed.(Ğ÷şøÿÿÿÿ8ÎİÙ•À0

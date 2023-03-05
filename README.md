@@ -34,7 +34,7 @@
 
 > 仅供参考
 
-![架构图](https://gitee.com/tanglinzzz/space_intelligent/raw/master/img/architecture.png)
+![架构图](./img/architecture.png)
 
 ## 通信协议
 

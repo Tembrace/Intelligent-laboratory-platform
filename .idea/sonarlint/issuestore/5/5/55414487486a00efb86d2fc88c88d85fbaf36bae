@@ -1,0 +1,19 @@
+
+J
+java:S3740T"/Provide the parametrized type for this generic.(¨ÚÈÙûÿÿÿÿ
+t
+java:S1192G"YDefine a constant instead of duplicating this literal "åˆ†é¡µæŸ¥è¯¢ç»“æœä¸ºç©º" 3 times.(…íÛşøÿÿÿÿ
+b
+java:S1192@"LDefine a constant instead of duplicating this literal "currentTime" 6 times.(±€ŸÃ
+f
+java:S1192L"KDefine a constant instead of duplicating this literal "createTime" 4 times.(³š¥†ûÿÿÿÿ
+W
+java:S18542"<Remove this useless assignment to local variable "isDelete".(ş½Åàşÿÿÿÿ
+H
+java:S14812"-Remove this unused "isDelete" local variable.(ş½Åàşÿÿÿÿ
+h
+java:S3776v"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ØŸ¤î
+:
+java:S1659"Declare "j" on a separate line.(á”æåşÿÿÿÿ
+I
+java:S1135"2Complete the task associated to this TODO comment.(Ó»³ñ
